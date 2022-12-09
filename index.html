@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang= "en" dir="ltr">
+    <head>
+        <!--this is the character in coding, used in html file-->
+        <meta charset="utf-8"> 
+        <!--the viewport is the users visiblearea of a webpage-->
+        <meta name="viewport" content="width=device-width, intitial-scale1">
+        <meta name="author" content="Islam Iktislyamov">
+        <meta name="description" content="My new cool project">
+        <meta name="keywords" content="HTML,CSS,pc,pt,px ,em,rem.">
+        <title>Cookies</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:wght@300&display=swap"   
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href=assets/style/index.css>
+        <script src="./assets/script/index.js" defer></script>
+        </style>
+    </head> 
+    <body>
+        <main>
+            <img src="./assets/img/cookies.jpeg" class="banner"> 
+
+            <div class="cookie-box cookies-agree">
+
+                <h2>Cookies</h2>
+
+                <p class="cookie-text">
+                    We use cookies to improve your experience on our website. By clicking 
+                    "Accept", you agree to the use of cookies for marketing and analitics purposes
+                </p>
+
+                <div class="flexbox">
+                    <input type="button" class="agree small-btn" value="Accept">
+                    <input type="button" class="settings small-btn" value="Settings">
+                </div>
+
+            </div>
+
+            <div class="cookie-box cookies-settings invis">
+
+                <h2>Settings</h2>
+                
+                <div class="flexbox">
+                    <div class="api-list">
+                        <p>Browser</p>
+    
+                        <p>OS</p>
+                        
+                        <p>Screen width</p>
+                        
+                        <p>Screen height</p>
+                    </div>
+    
+                    <div class="switch-box">
+    
+                        <div class="box">
+                            <label class="switch">
+                                <input type="checkbox" class="browser" checked>
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+    
+                        <div class="box">
+                            <label class="switch">
+                                <input type="checkbox" class="os" checked>
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+    
+                        <div class="box">
+                            <label class="switch">
+                                <input type="checkbox" class="width" checked>
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+    
+                        <div class="box">
+                            <label class="switch">
+                                <input type="checkbox" class="height" checked>
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <input type="button" class="save lrg-btn" value="Save Prefrences">
+
+            </div>
+        </main>
+    </body>
+</htmly>
